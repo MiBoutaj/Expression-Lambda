@@ -16,7 +16,29 @@ public class Exercice2 {
 
 
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println("***********************Q1*********************************");
         afficher(apple -> System.out.println("An apple of " + apple.getWeight() + "g" ));
+
+        System.out.println();
+        System.out.println("***********************Q2*********************************");
+        afficher(apple -> {
+            if(apple.getWeight()>=150){
+                System.out.println("Heavy Apple");
+            }else {
+                System.out.println("Light Apple");
+            }
+        });
+
+        System.out.println();
+        System.out.println("***********************Q3*********************************");
+
+
+
+
+
+
+
 
     }
 
